@@ -1,0 +1,2 @@
+This is a placeholder file to create the 'images' folder in GitHub.
+Once images are uploaded, this file be deleted.
