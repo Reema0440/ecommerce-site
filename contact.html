@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - E-commerce</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - E-commerce</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <header>
-        <div class="logo"><img src="images/logo.png" alt="Brand Logo"></div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="catalogue.html">Catalogue</a></li>
-                <li><a href="size-chart.html">Size Guide</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Contact Us</h1>
-        <p>Email: support@ecommerce.com</p>
-        <p>Phone: +1 123 456 7890</p>
-        <p>Address: 123 Fashion Street, Trendy City</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Our E-commerce Store | All Rights Reserved</p>
-    </footer>
+  <header>
+    <div class="logo"><img src="images/Logo.png" alt="Brand Logo" /></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="size-chart.html">Size Guide</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <section class="contact-section">
+
+      <!-- Contact Info -->
+      <div class="contact-box">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or need help, feel free to reach out to us!</p>
+        <p><strong>Email:</strong> support@ourstore.com</p>
+        <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+        <p><strong>Business Hours:</strong> Mon–Fri, 9:00 AM – 6:00 PM</p>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-box">
+        <h2>Send Us a Message</h2>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="cta-button">Send Message</button>
+        </form>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Our Store</p>
+  </footer>
 </body>
 </html>
